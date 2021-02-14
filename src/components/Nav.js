@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 
 export const Nav = () => {
   return (
-    <nav className='bg-blue-900 h-screen px-6 pt-10 shadow-lg'>
-      <div>
-        <ul className='text-white'>
-          <li className='text-2xl py-4'>
+    <nav className='bg-blue-900 px-6 shadow-lg'>
+      <div className='max-w-md mx-auto flex'>
+        <ul className='text-white flex flex-1 justify-center first:mr-auto last:ml-auto md:text-xl'>
+          <li className='py-4 hover:underline px-10'>
             <Link to='/'>About</Link>
           </li>
-          <li className='text-2xl py-4'>
+          <li className='py-4 hover:underline px-10'>
             <Link to='/portfolio'>Portfolio</Link>
           </li>
-          <li className='text-2xl py-4'>
+          <li className='py-4 hover:underline px-10'>
             <Link className=' whitespace-nowrap' to='/experience'>Work Experience</Link>
           </li>
         </ul>

@@ -1,28 +1,23 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Nav } from './components/Nav';
+import { Footer } from './components/Footer';
 import { About } from './pages/about';
 import { Experience } from './pages/experience';
 import { Portfolio } from './pages/portfolio';
-import HeadShot from './static/headshot.jpg';
+import { SpecScanner } from './projects/SpecScanner';
 
 function App() {
   return (
     <Router>
       <>
-        <div className="flex h-screen">
+        <div className="md:h-screen">
           <Nav />
           <div className='flex-1 flex overflow-hidden'>
-            <div className=' flex-grow overflow-y-auto'>
-              <div className='mt-20'>
-                <img className='rounded-full h-48 w-48 mx-auto' src={HeadShot} alt="Cortlin's Headshot" />
-                <div className='my-10'>
-                  <h1 className='text-center text-5xl py-4'>Hi. Thanks for visiting.</h1>
-                  <h2 className='text-center text-2xl py-2'>My name is Cortlin and I am a front-end developer and designer</h2>
-                </div>
-              </div>
-
-
+            <div className=' flex-grow flex flex-col justify-between overflow-y-auto'>
               <Switch>
+                <Route path='/portfolio/spec-scanner'>
+                  {SpecScanner}
+                </Route>
                 <Route path="/portfolio">
                   <Portfolio />
                 </Route>
@@ -33,6 +28,7 @@ function App() {
                   <About />
                 </Route>
               </Switch>
+              <Footer />
             </div>
           </div>
         </div>
