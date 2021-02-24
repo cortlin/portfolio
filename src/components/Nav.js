@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 export const Nav = () => {
   return (
-    <nav className='bg-blue-900 px-6 shadow-lg'>
+    <nav className='px-6 shadow-lg'>
       <div className='max-w-md mx-auto flex'>
-        <ul className='text-white flex flex-1 justify-center first:mr-auto last:ml-auto md:text-xl'>
+        <ul className='text-gray-800 flex flex-1 justify-center first:mr-auto last:ml-auto md:text-lg'>
           <li className='py-4 hover:underline px-10'>
             <Link to='/'>About</Link>
           </li>
