@@ -24,7 +24,7 @@ export const Experience = () => {
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Kitch &amp; Screiber Advertising </h2>
-                <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                
                 <ul className='mt-2'>
                   <li>
                     <span className="bg-yellow-100 text-yellow-600 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -62,7 +62,7 @@ export const Experience = () => {
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Dr. Dashboard</h2>
-                <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                
                 <ul className="mt-2">
                   <li>
                     <span className="bg-yellow-100 text-yellow-600 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -100,7 +100,7 @@ export const Experience = () => {
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Specialty Manufacturing</h2>
-                <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                
                 <ul className="mt-2">
                   <li>
                     <span className="bg-yellow-100 text-yellow-600 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
