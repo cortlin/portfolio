@@ -1,5 +1,4 @@
 import Spec1 from '../static/spec-qc-1.jpg';
-import { useEffect } from 'react';
 
 export const SpecScanner = () => {
   
