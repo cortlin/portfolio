@@ -7,6 +7,7 @@ import { Experience } from './pages/experience';
 import { Portfolio } from './pages/portfolio';
 import { SpecScanner } from './projects/SpecScanner';
 import { Forcefield } from './projects/Forcefield';
+import { TechStack } from './components/TechStack';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
             <Route path="/">
               <About />
               <Portfolio />
+              <TechStack />
             </Route>
           </Switch>
         </div>
