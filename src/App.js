@@ -13,31 +13,31 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="md:h-screen">
+      <div className="min-h-screen flex flex-col">
         <Nav />
-        <div className='flex-1 flex overflow-hidden'>
-          <div className=' flex-grow flex flex-col justify-between overflow-y-auto'>
-            <Switch>
-              <Route path='/portfolio/spec-scanner'>
-                {SpecScanner}
-              </Route>
-              <Route path='/portfolio/forcefield'>
-                {Forcefield}
-              </Route>
-              <Route path="/portfolio">
-                <Portfolio />
-              </Route>
-              <Route path="/experience">
-                <Experience />
-              </Route>
-              <Route path="/">
-                <About />
-                <Portfolio />
-              </Route>
-            </Switch>
-            <Footer />
-          </div>
+
+        <div className='flex-grow'>
+          <Switch>
+            <Route path='/portfolio/spec-scanner'>
+              <SpecScanner />
+            </Route>
+            <Route path='/portfolio/forcefield'>
+              <Forcefield />
+            </Route>
+            <Route path="/portfolio">
+              <Portfolio />
+            </Route>
+            <Route path="/experience">
+              <Experience />
+            </Route>
+            <Route path="/">
+              <About />
+              <Portfolio />
+            </Route>
+          </Switch>
         </div>
+
+        <Footer />
       </div>
     </Router>
   );
