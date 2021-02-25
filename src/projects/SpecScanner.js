@@ -5,7 +5,7 @@ export const SpecScanner = () => {
   return (
     <article className='max-w-4xl mx-auto mt-20'>
         <h2 className='text-3xl text-center font-bold mb-10'>Specialty Manufacturing Quality Control QR Code Scanner</h2>
-        <img className='mb-10' src={Spec1} alt="Specialty Manufacturing QC Scanner" />
+        <img className='mb-10 shadow-lg' src={Spec1} alt="Specialty Manufacturing QC Scanner" />
         
         <p>Specialty Manufacturing is an fluid analysis packaging company, primarily in the oil analysis industry. Many of these large Fluid analysis laboratories have started using qr codes on the fluid bottles to increase efficiency in customer information intake.</p>
         

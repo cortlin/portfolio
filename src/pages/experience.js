@@ -3,7 +3,7 @@ export const Experience = () => {
     <article className='max-w-4xl mx-auto'>
       <section className="text-gray-600 body-font">
       <h1 className='text-center font-mono text-5xl py-20 mb-4'>Work Experience</h1>
-        <div className="container px-5 py-24 mx-auto flex flex-wrap">
+        <div className="container px-5 pb-24 mx-auto flex flex-wrap">
           <div className="flex relative pb-20 sm:items-center">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
