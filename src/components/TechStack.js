@@ -3,7 +3,7 @@ export const TechStack = () => {
     <section className="max-w-4xl mx-auto px-4 mb-20 text-lg text-gray-900">
       <h1 className='text-center font-mono text-5xl py-20 mb-4'>About This Site</h1>
       <p>This site is currently built with vanilla React Javascript framework with static content, and using&nbsp;
-        <a className="text-yellow-600 hover:text-yellow-500" target="_blank" href="https://tailwindcss.com/">Tailwind CSS</a>
+        <a className="text-yellow-600 hover:text-yellow-500" target="_blank" rel="noreferrer" href="https://tailwindcss.com/">Tailwind CSS</a>
         &nbsp; for all of the styling.
       </p>
       <h3 className="font-bold mt-5">Why React?</h3>
